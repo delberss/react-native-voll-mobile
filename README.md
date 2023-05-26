@@ -1,6 +1,6 @@
 # Curso básico da Alura para Aplicativo usando React Native e Expo 
 
-## Telas
+## Telas feitas
 <img src="https://github.com/delberss/react-native-voll-mobile/assets/71342302/9469de5d-88eb-4f4b-88d3-9bc6aef4bbe6" width="200px" />
 
 <img src="https://github.com/delberss/react-native-voll-mobile/assets/71342302/2c1076db-196e-43ac-b615-9acc545a1173" width="200px" />
