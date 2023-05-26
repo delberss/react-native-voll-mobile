@@ -5,15 +5,15 @@ import { Botao } from "../componentes/Botao";
 
 const consultasPassadas = [
     {
-        nome: "Dr. Delber",
+        nome: "Dr. Doutor",
         especialidade: "cardiologista",
-        foto: "https://github.com/delberss.png",
+        foto: "https://ucmscdn.healthgrades.com/12/14/e71c531f414485bf0b3565483a4f/image-doctor.jpg",
         data: "25/05/2023",
     },
     {
-        nome: "Dr. Delber Soares",
-        especialidade: "cardiologista",
-        foto: "https://github.com/delberss.png",
+        nome: "Dr. Doutora",
+        especialidade: "dermatologista",
+        foto: "https://as2.ftcdn.net/v2/jpg/03/17/02/01/1000_F_317020176_JRGKfT71THSmQzwLuJs4LC6CioWENBCW.jpg",
         data: "26/05/2023",
     },
 ]
@@ -26,9 +26,9 @@ export default function Consultas(){
 
             <Titulo color="blue.500" fontSize="lg" alignSelf="flex-start" mb={2} >Próximas consultas</Titulo>
             <CardConsulta
-                nome="Dr. Delber"
-                especialidade="cardiologista"
-                foto="https://github.com/delberss.png"
+                nome="Dr. Doutor"
+                especialidade="neurologista"
+                foto="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/para-ser-medico-necessario-conhecimento-teorico-habilidades-humanas-5581b3298ca93.jpg"
                 data="25/05/2023"
                 foiAgendado
             />

@@ -9,20 +9,21 @@ import { secoes } from './utils/CadastroEntradaTexto';
 
 export default function Cadastro() {
   const [numSecao, setNumSecao] = useState(0);
-
   
 
-  function avancarSecao(){
-    if(numSecao < secoes.length - 1){
-      setNumSecao(numSecao+1)
-    }
+  function avancarSecao() {
+    if (numSecao < secoes.length - 1) {
+      setNumSecao(numSecao + 1);
+    } 
   }
+  
 
   function voltarSecao(){
     if(numSecao > 0){
       setNumSecao(numSecao-1)
     }
   }
+
 
   return (
     <ScrollView flex={1} p={5}>
@@ -39,8 +40,9 @@ export default function Cadastro() {
       </Box>
 
       <Box>
-          <Text color="blue.800" fontWeight="bold" fontSize="md" mt={2} mb={2}>Selecione o plano:</Text>
           {
+            secoes[numSecao].checkbox.length ? <Text color="blue.800" fontWeight="bold" fontSize="md" mt={2} mb={2}>Selecione o plano:</Text> : ''
+          }          {
            secoes[numSecao].checkbox.map(checkbox => {
             return <Checkbox key={checkbox.id} value={checkbox.value}>{checkbox.value}</Checkbox>
            })
